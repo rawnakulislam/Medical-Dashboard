@@ -1,0 +1,1096 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/*google font*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+    body {
+	background: #F1F1F9;
+    overflow-x: hidden;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*end of common css*/
+/*navbar start*/
+.navbar {
+    background: #fff;
+}
+
+.nav-link {
+    color: #000;
+    padding: 38px !important;
+    font-weight: 600;
+    transition: .3s ease;
+    color: #000 !important;
+
+}
+
+.nav-link:focus {
+    color: #17A2B8 !important;
+}
+
+.dropdown,
+.dropleft,
+.dropright,
+.dropup {
+    margin-top: -15px;
+    margin-left: -28px;
+}
+
+.dropdown .button {
+    font-weight: 700;
+}
+#dropdownMenu2 {
+	font-weight: 600;
+	background: #fff;
+}
+.admin {
+    position: relative;
+}
+
+.admin::before {
+    position: absolute;
+    content: '';
+    height: 15px;
+    width: 15px;
+    background: #1fff1f;
+    border-radius: 50%;
+    left: 60%;
+    top: 20%;
+}
+
+.admintext p {
+	font-size: 12px;
+	padding-top: 28px;
+	margin-left: -25px;
+}
+
+.admintext h6 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: -22px;
+    margin-top: -10px;
+}
+
+.navadmin {
+    padding-top: 11px;
+}
+
+.admintext img {
+    margin-top: -91% !important;
+    padding-left: 37px !important;
+}
+
+/*end of navbar*/
+.nav-tabs li {
+    padding: 2% 6%;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+}
+
+.nav-tabs li a:focus {
+    border-bottom: 3px solid #17A2B8 !important;
+}
+.nav-tabs li a {
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 13px;
+}
+.nav-tabs li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-tabs {
+    border-bottom: 0;
+}
+ul.nav.nav-tabs {
+    margin-top: 30px !important;
+}
+
+.nav-tabs,
+.tab-content {
+    background: #Fff; 
+}
+
+.Basicinfo p {
+    color: #6C7B8A;
+    margin-bottom: 0;
+    font-size: 16px;
+    padding: 4px 0;
+    padding-left: 5px;
+    margin-left: 15px;
+}
+
+.Basicinfo p span {
+	color: #000;
+	font-weight: 600;
+}
+#menu2 .table thead th {
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #F0F2F3 !important;
+}
+
+#menu2 .table td {
+    font-size: 16px;
+    border: 1px solid #F0F2F3 !important;
+    padding-bottom: 112px;
+    text-align: center;
+    background: #fff;
+}
+
+.otherupper h6,
+.otherupper p {
+    padding-left: 30px;
+    margin-bottom: 0;
+    color: #ACB5BE;
+}
+
+.otherupper h6 span,
+.otherupper p span {
+    font-weight: 600;
+    color: #000;
+}
+
+.otherupper {
+    padding: 10px 0;
+}
+.tab-content .nice-select.open .list {
+	opacity: 1;
+	pointer-events: auto;
+	-webkit-transform: scale(1) translateY(0);
+	-ms-transform: scale(1) translateY(0);
+	transform: scale(1) translateY(0);
+	left: 64%;
+}
+.othertableinfo p {
+    float: left;
+    margin-bottom: 0;
+}
+
+.othertableinfo1 img {
+    float: left;
+    padding-left: 44px !important;
+}
+
+.othertableinfo1 p {
+    float: left;
+    margin-bottom: 0;
+}
+
+.othertableinfo img {
+    float: left;
+    margin-right: 13px !important;
+    padding-left: 32px;
+}
+
+.othertable .table tr th {
+    padding-left: 34px !important;
+}
+
+.othertable th {
+    background: #F5F5FA;
+}
+
+.numberimg1 {
+    float: left;
+    margin-right: 17px;
+}
+
+.numberimg2 {
+    float: right;
+    margin-right: -6px;
+}
+.number a {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    /* border: 1px solid #000; */
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    margin: 4px;
+    transition: .2s easy;
+}
+.availability .nice-select {
+	-webkit-tap-highlight-color: transparent;
+	background-color: #fff;
+	border-radius: 5px;
+	border: solid 1px #e8e8e8;
+	box-sizing: border-box;
+	clear: both;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	height: 42px;
+	line-height: 40px;
+	outline: none;
+	padding-left: 18px;
+	padding-right: 30px;
+	position: relative;
+	text-align: left !important;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	white-space: nowrap;
+	width: 70% !important;
+	 margin-left: 0% !important; 
+}
+.reload img {
+    float: left;
+    margin-top: 4px;
+}
+.reload p {
+    float: left;
+    margin-left: 4px;
+}
+.number a:nth-child(1) {
+    border: none;
+}
+
+.number a:nth-child(2) {
+    margin-left: 17px;
+}
+
+.number a:nth-child(10) {
+    border: none;
+}
+
+.number {
+    display: inline-flex;
+   
+}
+.numberpage{
+     overflow-x: hidden;
+}
+.reload a {
+    display: block ruby;
+
+}
+
+.itempad {
+    margin-left: 37px;
+}
+/**/
+.doctorstitel p {
+    display: inline-block;
+    font-weight: 700;
+
+}
+
+.doctorstitel {
+	padding: 12px 0;
+	background: #fff;
+	margin: 0px;
+	margin-top: 24px;
+}
+.doctorrrrtitel {
+    padding-top: 26px;
+}
+.doctorcard {
+    background: #fff;
+    margin: 30px 0;
+}
+
+.doctorcard img {
+    margin: 25px 0;
+}
+
+.doctorcard .name {
+    font-size: 19px;
+    color: #000;
+    font-weight: 700;
+}
+
+.doctorcard .degree {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+}
+
+.doctorcard a {
+	padding: 17px 40px;
+	background: #17A2B8;
+	margin-bottom: 40px;
+	color: #fff;
+	border-radius: 5px;
+	font-weight: 600;
+}
+
+.doctorcard a:hover {
+    text-decoration: none;
+}
+
+.underdoctor {
+    background: #fff;
+    padding: 10px 0;
+    padding-top: 27px;
+    margin-bottom: 50px;
+    border-radius: 18px !important;
+}
+.maindoc {
+    background: #F5F5FA;
+    padding: 0 30px 40px 30px;
+}
+/**/
+.emergency .text {
+    float: left;
+    margin-left: 4%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.filebtnf p {
+	float: left;
+	padding-top: 2%;
+	margin-left: 4%;
+}
+.filebtnf a{
+    padding: 10px 40px !important;
+    border-radius: 5px !important;
+    background: #E3F4F7 !important;
+    color: #3DB1C4 !important;
+    font-weight: 700;
+    border: 1px solid #3DB1C4 !important;
+    text-decoration: none;
+    float: left;
+    margin-left: 10%;
+}
+#menu122 .filebtnf a{
+    margin-left: 0% !important;
+}
+
+.ghula .hue{
+    margin-left: 4% !important;
+}
+.emergency .btn {
+    float: left;
+    margin-left: 17%;
+    padding: 10px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    margin-top: 2%;
+    font-weight: 600;
+}
+.emergency .btn a:hover {
+    text-decoration: none;
+}
+.text p{
+    font-size: 14px;
+}.text h6{
+    font-size: 12px;
+}
+.emergency .btn a {
+    color: #fff;
+}
+
+.emergency {
+    background: #1db3dc;
+    padding: 60px 0;
+}
+
+.emergency1 {
+    background: #0482F5;
+    padding: 60px 0;
+}
+
+.emergency1 .text {
+    float: left;
+    margin-left: 4%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.emergency1 .btn {
+    float: left;
+    margin-left: 17%;
+    padding: 10px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    margin-top: 2%;
+    font-weight: 600;
+}
+.emergency1 .btn a:hover {
+    text-decoration: none;
+}
+
+.emergency1 .btn a {
+    color: #fff;
+}
+
+.footer {
+    background: #202020;
+}
+
+.footerimg h5 span {
+    color: blue;
+}
+
+.footerimg h5 {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 3px 0;
+}
+
+.footerimg {
+    color: #fff;
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
+
+.social {
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #2E2E2E;
+}
+
+.social a {
+    height: 45px;
+    width: 45px;
+    font-size: 30px;
+    color: #fff;
+    background: #2E2E2E;
+    text-align: center;
+    margin: 7px 0;
+}
+
+.undermenu {
+    text-align: center;
+}
+
+.undermenu ul {
+    margin-bottom: 0;
+}
+
+.undermenu ul li {
+    display: inline-block;
+
+}
+
+.undermenu ul li a {
+    padding: 20px 15px;
+    color: #fff;
+}
+
+.undermenu ul li a:hover {
+    text-decoration: none;
+}
+
+.copyright {
+    background: #000;
+    padding: 10px 0;
+}
+
+.copyright p {
+    text-align: center;
+    color: #fff;
+}
+
+/*Edit Page Css start*/
+.nav-pills li {
+    padding: 0px 20px;
+    margin: 0 auto;
+    color: #000;
+}
+
+.nav-pills li a {
+    color: #000;
+    padding: 30px 0;
+}
+
+.nav-pills li a:hover {
+    text-decoration: none;
+}
+
+.nav-pills li a:focus {
+    border-bottom: 2px solid #1DB3DC;
+}
+
+/*Edit Page Css End*/
+#home1 label {
+	display: block ruby;
+	padding-left: 10%;
+	font-size: 16px;
+	margin-top: 10px;
+	color: #343434;
+	font-weight: 500;
+}
+#home1 input {
+	width: 70%;
+	height: 40px;
+	margin-left: 10%;
+	padding: 5px;
+	border-radius: 8px !important;
+	color: #000;
+	border: 1px solid #e0e4e8;
+}
+
+#home1 select {
+    margin-left: 10%;
+    width: 70%;
+    height: 40px;
+    border-radius: 8px !important;
+	color: #000;
+	border: 1px solid #F4F5F6;
+}
+
+.ndpilltitel {
+    margin: 20px 0;
+}
+
+#home1 button {
+    padding: 20px 48px;
+    border: 0;
+    margin: 6px;
+    margin-left: 0%;
+    margin-bottom: 60px;
+    margin-top: 70px;
+    background: #17A2B8;
+    color: #fff;
+    border-radius: 16px;
+}
+button.hue {
+    background: #344563 !important;
+}
+#home1 h5 {
+    margin-left: 10%;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/**/
+
+
+#menu11 label {
+    display: block;
+    padding-left: 10%;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #343434;
+    font-weight: 500;
+}
+#menu11 input {
+	width: 70%;
+	height: 40px;
+	margin-left: 10%;
+	padding: 5px;
+	border-radius: 8px !important;
+	color: #000;
+	border: 1px solid #e0e4e8;
+}
+
+
+
+.navbar {
+    background: #fff !important;
+   
+}
+
+.nav.nav-pills {
+    background: #fff;
+}
+.fa.fa-phone {
+	color: #18A0FB;
+}
+.alllappoinments .nav.nav-pills {
+    border-bottom: 1px solid #a7a7a7;
+}
+.uncomon{
+    background: #E2E5E8 !important;
+    color: #000 !important;
+}
+#raw2 .table {
+    text-align: center;
+}
+#menu11 button {
+    padding: 20px 48px;
+    border: 0;
+    margin: 6px;
+    margin-left: 1%;
+    margin-bottom: 60px;
+    margin-top: 70px;
+    background: #17A2B8;
+    color: #fff;
+    border-radius: 16px;
+}
+button.hue {
+    background: #344563 !important;
+}
+#menu11 h5 {
+    margin-left: 10%;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ghula {
+    background: #F6F6FB;
+    margin-top: 30px;
+}
+/**/
+
+#menu22 label {
+    display: block;
+    padding-left: 10%;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #343434;
+    font-weight: 500;
+}
+
+#menu22 input {
+	width: 70%;
+	height: 40px;
+	margin-left: 10%;
+	padding: 5px;
+	border-radius: 8px !important;
+	color: #000;
+	border: 1px solid #e0e4e8;
+   
+}
+
+
+#menu22 button {
+    padding: 20px 48px;
+    border: 0;
+    margin: 6px;
+    margin-left: 1%;
+    margin-bottom: 60px;
+    margin-top: 70px;
+    background: #17A2B8;
+    color: #fff;
+    border-radius: 16px;
+}
+
+#menu22 h5 {
+    margin-left: 10%;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/**/
+/***/
+*/ #menu23 {
+    margin: 400px;
+}
+
+#menu23 label {
+    display: block;
+    padding-left: 10%;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #343434;
+    font-weight: 500;
+}
+
+#menu23 input:placeholder-shown{
+    color: #000;
+    padding-left: 20px;
+
+}
+#menu23 input {
+    width: 66.4%;
+    height: 40px;
+    margin-left: 10%;
+    padding: 5px;
+    color: #000;
+	border: 1px solid #e0e4e8;
+}
+.row.empty {
+	height: 30px;
+	background: #F1F1F9;
+}
+#menu23 h5 {
+    margin-left: 10%;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#menu23 button {
+    padding: 20px 48px;
+    border: 0;
+    margin: 6px;
+    margin-bottom: 60px;
+    margin-top: 70px;
+    background: #17A2B8;
+    color: #fff;
+    border-radius: 16px;
+}
+.left1{
+    background: #334563 !important;
+}
+.extra {
+	padding-top: 20px;
+}
+#menu23 .left{
+    margin-left: 10%;
+}
+.otherbtn{
+    padding: 10px 40px !important;
+    border-radius: 5px !important;
+    background: #E3F4F7 !important;
+    color: #3DB1C4 !important;
+    font-weight: 700;
+    border: 1px solid #3DB1C4 !important;
+    margin: 0 !important;
+    margin-left: 10% !important;
+    margin-bottom: 60px !important;
+    margin-top: 70px !important;
+}
+.otherbtnp{
+    float: left;
+    padding-top: 18%;
+}
+.btn.btn-outline-dark.bg-dark.text-white-50.my-2.my-sm-0 {
+	margin: 0 auto;
+	margin-left: 0;
+}
+input.a {
+    width: 20% !important;
+}
+input.b {
+    width: 49% !important;
+    margin-left: 0 !important;
+}
+input#16{
+    width: 75% !important;
+}
+textarea {
+    overflow: auto;
+    resize: none !important;
+    margin-left: 10%;
+    width: 67%;
+	border: 1px solid #F4F5F6;
+}
+
+/**/
+.underdoctorsection {
+	margin-top: 100px;
+}
+.password {
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 40px 0;
+    background: #fff;
+    margin: 84px 0 20px 50%;
+    padding: 40px 17px;
+    overflow-x: hidden;
+}
+.password h4 {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.password label {
+    display: block;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.password input {
+	width: 80%;
+	height: 40px;
+	border: 1px solid #918d8d;
+    margin-left: 50%;
+    transform: translateX(-50%);
+	border-radius: 8px;
+}
+
+.password input:placeholder-shown {
+    text-align: center;
+}
+
+.password button {
+    padding: 16px 35px;
+    border: 0;
+    margin-top: 25px;
+    background: #17A2B8;
+    color: #fff;
+    border-radius: 8px;
+}
+.loginbtn {
+	text-align: center;
+}
+.apoinmentta {
+    background: #fff;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.marked {
+    color: #43D211;
+    font-weight: 600;
+}
+
+.insurancetable {
+    text-align: center;
+    margin: 70px 0;
+    padding: 50px 0;
+}
+
+.delete {
+    background: #F5108C;
+    color: #fff;
+}
+
+/**/
+.availability h5 {
+    font-weight: 600;
+}
+
+.availability select {
+	word-wrap: normal;
+	width: 100%;
+	height: 34px;
+	border: 1px solid #F0F2F3;
+	border-radius: 5px;
+	color: #344563;
+}
+.v1 {
+	margin-top: 33px;
+}
+.nav.nav-pills.v2 {
+	margin: 20px 0;
+}
+.v3 {
+	background: #F5F5FA;
+}
+.availability {
+    background: white;
+    padding: 50px;
+}
+
+.availability label {
+    font-weight: 700;
+}
+
+.availability button {
+	padding: 15px 60px;
+	border: 0;
+	background: #17A2B8;
+	color: #fff;
+	margin-top: 30px;
+	border-radius: 7px;
+}
+.ep {
+	padding: 10px 0;
+	padding-left: 1%;
+}
+.avail {
+	padding: 14px 50px;
+	background: #fff;
+	border-top: 1px solid #b9b7b7;
+}
+
+.availtable {
+    margin: 70px 0;
+    background: #fff;
+    padding: 20px 0;
+}
+
+.availtable button {
+    padding: 5px 10px;
+    background: #17A2B8;
+    color: #fff;
+    border: 0;
+    margin-left: 10%;
+    margin: 40px;
+}
+
+.availtable td {
+    background: #fff;
+}
+
+.upperdoc form {
+    padding: 50px;
+}
+
+.upperdoc form input {
+    height: 40px;
+    padding: 10px 0;
+}
+
+.upperdoc form Select {
+	width: 52%;
+	height: 40px;
+	margin: 10px 0;
+	border: 1px solid #b9b9b9;
+}
+
+.upperdoc form button {
+    padding: 16px 60px;
+    border: 0;
+    background: #17A2B8;
+    color: #fff;
+    margin: 20px 0;
+    margin-left: 10%;
+}
+
+.upperdoc form label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.underdoc {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.underdoc td {
+    background: #fff;
+}
+
+.form-inline.my-2.my-lg-0 {
+    padding-top: 20px;
+}
+
+.patiant {
+	padding: 20px 70px;
+	background: #fff;
+	border-top: 1px solid #c6c6c6;
+	padding-left: 10%;
+}
+
+.mainfile {
+	background: #fff;
+	margin-top: 30px;
+}
+
+.mainfile .dropdown {
+	text-align: end;
+}
+
+.mainfile form {
+	margin-left: 22px;
+}
+.patianttable td {
+    text-align: center;
+    background: #fff;
+}
+
+.patianttable {
+    padding: 20px 0 100px 0;
+}
+
+.patianttable th {
+    text-align: center;
+}
+
+.alllappoinments td {
+	width: 20%;
+	font-size: 14px;
+}
+
+.alllappoinments {
+    background: #fff;
+}
+
+/**/
+.upperpatiant .dropdown-menu.show {
+	left: 66% !important;
+    top: 0% !important;
+}
+select option{
+    width: 40% !important;
+    float: right !important;
+}
+.left {
+    margin-left: 3%;
+}
+#home1 .filebtnf {
+	margin-top: 5%;
+}
+#menu24 .form-inline.my-2.my-lg-0 {
+	padding-top: 20px;
+	float: right;
+}
+/*
+.conselect {
+	height: 40px;
+	width: 70%;
+	margin-left: 3%;
+    border-radius: 8px !important;
+    
+}
+*/
+.nice-select {
+	-webkit-tap-highlight-color: transparent;
+	background-color: #fff;
+	border-radius: 5px;
+	border: solid 1px #e8e8e8;
+	box-sizing: border-box;
+	clear: both;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	height: 42px;
+	line-height: 40px;
+	outline: none;
+	padding-left: 18px;
+	padding-right: 30px;
+	position: relative;
+	text-align: left !important;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	white-space: nowrap;
+	width: 70% !important;
+	margin-left: 10% !important;
+}
+.upperdoc .filebtnf {
+	margin-left: 10%;
+	margin-top: 20px;
+}

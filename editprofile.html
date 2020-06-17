@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TelaHealthPro | Edit Profile</title>
+    <!--    css file-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/image 2.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item navadmin">
+                        <div class="admin">
+                            <img src="images/Rectangle%202.png" alt="">
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <div class="admintext">
+                            <p>Welcome Back</p>
+                            <div class="dropdown">
+                                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Sandip P.
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <a href="editprofile.html" class="dropdown-item" type="button" href="#">Edit Profile</a>
+                                    <a href="appoinment.html" class="dropdown-item" type="button">Appoinment</a>
+                                    <a href="allappoinments.html" class="dropdown-item" type="button">All Appoinments</a>
+                                    <a href="mypatient.html" class="dropdown-item" type="button">My Patients</a>
+                                    <a href="availability.html" class="dropdown-item" type="button">Availability</a>
+                                    <a href="myprofileedit.html" class="dropdown-item" type="button">My Profile Edit</a>
+                                    <a href="changePassword.html" class="dropdown-item" type="button">Change Password</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--navbar end-->
+    <!--    tab start-->
+    <h5 class="text-center ndpilltitel">Edit Profile</h5>
+    <div class="container">
+        <ul class="nav nav-pills">
+            <li class="active"><a data-toggle="pill" href="#home1">Basic information</a></li>
+            <li><a data-toggle="pill" href="#menu11">Generator Information</a></li>
+            <li><a data-toggle="pill" href="#menu22">Insurance Information</a></li>
+            <li><a data-toggle="pill" href="#menu23">Other Information</a></li>
+            <li><a data-toggle="pill" href="#menu24">Associate Doctors</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="home1" class="tab-pane active">
+                <form action="">
+                    <h5>Basic Information</h5>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <label for="1">First Name*:</label>
+                            <input id="1" type="text" Placeholder="Enter First Name"><label for="2">Last Name*:</label>
+                            <input id="2" type="text" Placeholder="Enter Last Name">
+                            <label for="Country">Country:</label>
+                            <select class="nice-select" name="" id="">
+                                <option data display="select">United States</option>
+                                <option>United States</option>
+                                <option>United States</option>
+                                <option>United States</option>
+                                <option>United States</option>
+                            </select><br><br>
+                            <label for="City">City:</label>
+                            <select name="" id="City">
+                                <option>New York</option>
+                                <option>New York</option>
+                                <option>New York</option>
+                                <option>New York</option>
+                                <option>New York</option>
+                                <option>New York</option>
+                            </select><br><br>
+                            <label for="3">Home Phone*:</label>
+                            <input id="3" type="Text" Placeholder="Home Phone">
+                            <label for="4">Date Of Birth:</label>
+                            <input id="4" type="date" Placeholder="Date Of Birth">
+                            <label for="5">Gender*:</label>
+                            <select name="Gender" id="5"><br>
+                                <option>Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select><br>
+                            <label for="6">Employeer Address*:</label>
+                            <input id="6" type="Text" Placeholder="Address">
+                            <label for="7">Employer Address*:</label>
+                            <input id="7" type="text" Placeholder="Address">
+                            <div class="filebtnf">
+                                <a href="">Choose a file</a>
+                                <p>No file Choosen</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <label for="8">Middle Name:</label>
+                            <input id="8" type="text" placeholder="Middle NAme">
+                            <label for="9">Address:</label>
+                            <input id="9" type="text" placeholder="Address">
+                            <label for="10">State:</label>
+                            <input id="10" type="text" placeholder="State">
+                            <label for="11">Zip Code:</label>
+                            <input id="11" type="Text" placeholder="Zip Code">
+                            <label for="12">Social Security Number:</label>
+                            <input id="12" type="Text" placeholder="Social Security Number">
+                            <label for="13">Marital Status:</label>
+                            <input id="13" type="Text" placeholder="Marital Status">
+                            <label for="14">Employer Name:</label>
+                            <input id="14" type="Text" placeholder="Employer Name">
+                            <label for="15">Work Phone:</label>
+                            <input id="15" type="Text" placeholder="Work Phone">
+                            <label for="16">Employer Address:</label>
+                            <div class="aa">
+                                <input type="text" class="a" placeholder="+23"> <input class="b" type="Text" placeholder="Address">
+                            </div>
+                            <label for="17">Emergency Contact Number</label>
+                            <input id="17" type="Text" placeholder="Emergency Number">
+                        </div>
+                    </div>
+                    <div class="left">
+                        <button type="submit">Save</button>
+                        <button class="left1" type="submit">Save & Continue</button>
+                    </div>
+                </form>
+            </div>
+            <div id="menu11" class="tab-pane fade">
+                <form action="">
+                    <h5>Gurander Information</h5>
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-6">
+                            <label for="1">First Name*:</label>
+                            <input id="1" type="text" Placeholder="Enter First Name"><label for="2">Last Name*:</label>
+                            <input id="2" type="text" Placeholder="Enter Last Name">
+                            <label for="Country">Country:</label>
+                            <select name="" id="Country">
+                                <option>United States</option>
+                                <option>United States</option>
+                                <option>United States</option>
+                                <option>United States</option>
+                                <option>United States</option>
+                                <option>United States</option>
+                                <option>United States</option>
+                                <option>United States</option>
+                                <option>United States</option>
+                            </select><br><br>
+                           
+                            <label for="City">City:</label>
+                            <select name="" id="City">
+                                <option>New York</option>
+                                <option>New York</option>
+                                <option>New York</option>
+                                <option>New York</option>
+                                <option>New York</option>
+                                <option>New York</option>
+                            </select><br><br>
+                            <label for="3">Home Phone*:</label>
+                            <input id="3" type="Text" Placeholder="Home Phone">
+                            <label for="4">Date Of Birth:</label>
+                            <input id="4" type="date" Placeholder="Date Of Birth">
+                            <label for="5">Gender*:</label>
+                            <select name="Gender" id="5">
+                                <option>Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select><br><br>
+                            <label for="6">Employeer Address*:</label>
+                            <input id="6" type="Text" Placeholder="Address">
+                            <label for="7">Employer Address*:</label>
+                            <input id="7" type="Text" Placeholder="Address">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <label for="8">Middle Name:</label>
+                            <input id="8" type="text" placeholder="Middle NAme">
+                            <label for="9">Address:</label>
+                            <input id="9" type="text" placeholder="Address">
+                            <label for="10">State:</label>
+                            <input id="10" type="text" placeholder="State">
+                            <label for="11">Zip Code:</label>
+                            <input id="11" type="Text" placeholder="Zip Code">
+                            <label for="12">Social Security Number:</label>
+                            <input id="12" type="Text" placeholder="Social Security Number">
+                            <label for="13">Marital Status:</label>
+                            <input id="13" type="Text" placeholder="Marital Status">
+                            <label for="14">Employer Name:</label>
+                            <input id="14" type="Text" placeholder="Employer Name">
+                            <label for="15">Work Phone:</label>
+                            <input id="15" type="Text" placeholder="Work Phone">
+                            <label for="16">Address:</label>
+                            <input id="16" type="Text" placeholder="Address">
+                            <label for="17">Emergency Number</label>
+                            <input id="17" type="Text" placeholder="Emergency Number">
+                        </div>
+                    </div>
+                    <div class="left">
+                        <button type="submit">Save</button>
+                        <button class="left1" type="submit">Save & Continue</button>
+                    </div>
+                </form>
+            </div>
+            <div id="menu22" class="tab-pane fade">
+                <h5>Insurance Information</h5>
+                <form>
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-6">
+                            <label for="1">Plan Name*:</label>
+                            <input id="1" type="text" Placeholder="Name">
+                            <label for="2">Insuranced Social Security Number*:</label>
+                            <input id="2" type="text" Placeholder="Insuranced Social Security Number">
+                            <label for="3">Policy/Id Number*:</label>
+                            <input id="3" type="text" Placeholder="Policy/Id Number">
+                            <label for="4">Eff Date*:</label>
+                            <input id="4" type="text" Placeholder="Eff Date">
+                            <label for="5">Claim Phone*:</label>
+                            <input id="5" type="text" Placeholder="Claim Phone">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <label for="11">Insuransed Name*:</label>
+                            <input id="11" type="text" Placeholder="Insuransed Name">
+                            <label for="22">Insuransed Date of birth*:</label>
+                            <input id="22" type="text" Placeholder="Insuransed Date of birth">
+                            <label for="33">Group Number*:</label>
+                            <input id="33" type="text" Placeholder="Group Number">
+                            <label for="44">Claim Date*:</label>
+                            <input id="44" type="text" Placeholder="Claim Date">
+                        </div>
+                    </div>
+                    <div class="left">
+                        <button type="submit">Save</button>
+                        <button class="left1" type="submit">Save & Continue</button>
+                    </div>
+                </form>
+                <div class="insurancetable">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Plan Name</th>
+                                <th scope="col">Insurance Name</th>
+                                <th scope="col">Policy/Id Name</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="images/Rectangle%2026.png" alt=""> Medical Plan</td>
+                                <td>Niaz Mahmud</td>
+                                <td>22573485</td>
+                                <td><img src="images/Group%2026.png" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td><img src="images/Rectangle%2026.png" alt=""> Medical Plan</td>
+                                <td>Niaz Mahmud</td>
+                                <td>22573485</td>
+                                <td><img src="images/Group%2026.png" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td><img src="images/Rectangle%2026.png" alt=""> Medical Plan</td>
+                                <td>Niaz Mahmud</td>
+                                <td>22573485</td>
+                                <td><img src="images/Group%2026.png" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td><img src="images/Rectangle%2026.png" alt=""> Medical Plan</td>
+                                <td>Niaz Mahmud</td>
+                                <td>22573485</td>
+                                <td><img src="images/Group%2026.png" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td><img src="images/Rectangle%2026.png" alt=""> Medical Plan</td>
+                                <td>Niaz Mahmud</td>
+                                <td>22573485</td>
+                                <td><img src="images/Group%2026.png" alt=""></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <button class="delete"><i class="fa fa-trash"></i>&nbsp;&nbsp;Delete</button>
+                </div>
+                <div class="numberpage">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-3 col-sm-3">
+                            <p class="itempad">1 - 2 of 2 items</p>
+                        </div>
+                        <div class="col-lg-6 col-md-7 col-sm-6">
+                            <div class="number">
+                                <a href="">
+                                    <img src="images/Group%2011.png" alt="" class="numberimg1">
+                                </a>
+                                <a href="">1</a>
+                                <a href="">2</a>
+                                <a href="">3</a>
+                                <a href="">4</a>
+                                <a href="">5</a>
+                                <a href="">6</a>
+                                <p>...</p>
+                                <a href="">50</a>
+                                <a href="">
+                                    <img src="images/Group%2012.png" alt="" class="numberimg2">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-3">
+                            <div class="reload">
+                                <a href="">
+                                    <img src="images/reload-2-icon%201.png" alt="">
+                                    <p>Reload</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu23" class="tab-pane fade">
+                <h5>Other Information</h5>
+                <form>
+                    <label for="1">Please Tell How You Khow About Us</label><br>
+                    <textarea name="" id="1" cols="" rows="10">Write about Us</textarea>
+                    <label for="2">Raffered By</label>
+                    <input type="text" id="2" placeholder="RAffred Name"><br>
+                    <div class="left">
+                        <button type="submit">Save</button>
+                        <button class="left1" type="submit">Save & Continue</button>
+                    </div>
+                </form>
+                <div class="ulda">
+                    <h5>Upload Document</h5>
+                    <form action="">
+                        <label for="1">Document Type:</label>
+                    </form>
+
+                </div>
+                <div class="othertable">
+                    <table class="table text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Document</th>
+                                <th scope="col">Documents Type</th>
+                                <th scope="col">Update Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="othertableinfo"><img src="images/hdfh.png" alt="">
+                                    <p>Medical Report</p>
+                                </td>
+                                <td>Report</td>
+                                <td class="othertableinfo1">
+                                    <p>27 September 2020</p><img src="images/Group%2026.png" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="othertableinfo "><img src="images/hdfh.png" alt="">
+                                    <p>Medical Report</p>
+                                </td>
+                                <td>Report</td>
+                                <td class="othertableinfo1">
+                                    <p>27 September 2020</p><img src="images/Group%2026.png" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="numberpage">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-3 col-sm-3">
+                                <p class="itempad">1 - 2 of 2 items</p>
+                            </div>
+                            <div class="col-lg-6 col-md-7 col-sm-6">
+                                <div class="number">
+                                    <a href="">
+                                        <img src="images/Group%2011.png" alt="" class="numberimg1">
+                                    </a>
+                                    <a href="">1</a>
+                                    <a href="">2</a>
+                                    <a href="">3</a>
+                                    <a href="">4</a>
+                                    <a href="">5</a>
+                                    <a href="">6</a>
+                                    <p>...</p>
+                                    <a href="">50</a>
+                                    <a href="">
+                                        <img src="images/Group%2012.png" alt="" class="numberimg2">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-3">
+                                <div class="reload">
+                                    <a href="">
+                                        <img src="images/reload-2-icon%201.png" alt="">
+                                        <p>Reload</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu24" class="tab-pane fade">
+                <div class="doctorlist">
+                    <div class="row doctorstitel">
+                        <div class="col-lg-2 col-md-3 col-sm-12 doctorrrrtitel">
+                            <img src="images/first-aid%201.png" alt="">
+                            <p>Doctor List</p>
+                        </div>
+                        <div class="col-lg-10 col-md-9 col-sm-12">
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search By Doctor" aria-label="Search">
+                                <button class="btn btn-outline-info bg-info my-2 my-sm-0 text-white" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row empty"></div>
+                <div class="doctorssss">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="doctorcard text-center">
+                                <img src="images/Ellipse%202.png" alt="">
+                                <p class="name">Pratik Rupani</p>
+                                <p class="degree">MBBS,MD</p>
+                                <p class="place">Alachua,Florida,United states</p>
+                                <a href="">Assign</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="doctorcard text-center">
+                                <img src="images/Ellipse%202(1).png" alt="">
+                                <p class="name">Pratik Rupani</p>
+                                <p class="degree">MBBS,MD</p>
+                                <p class="place">Alachua,Florida,United states</p>
+                                <a class="uncomon" href="">Remove From List</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="doctorcard text-center">
+                                <img src="images/Ellipse%202(2).png" alt="">
+                                <p class="name">Pratik Rupani</p>
+                                <p class="degree">MBBS,MD</p>
+                                <p class="place">Alachua,Florida,United states</p>
+                                <a href="">Assign</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="doctorcard text-center">
+                                <img src="images/Ellipse%202.png" alt="">
+                                <p class="name">Pratik Rupani</p>
+                                <p class="degree">MBBS,MD</p>
+                                <p class="place">Alachua,Florida,United states</p>
+                                <a href="">Assign</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="doctorcard text-center">
+                                <img src="images/Ellipse%202(1).png" alt="">
+                                <p class="name">Pratik Rupani</p>
+                                <p class="degree">MBBS,MD</p>
+                                <p class="place">Alachua,Florida,United states</p>
+                                <a href="">Assign</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="doctorcard text-center">
+                                <img src="images/Ellipse%202(2).png" alt="">
+                                <p class="name">Pratik Rupani</p>
+                                <p class="degree">MBBS,MD</p>
+                                <p class="place">Alachua,Florida,United states</p>
+                                <a href="">Assign</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="underdoctor">
+                    <div class="numberpage">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-3 col-sm-3">
+                                <p class="itempad">1 - 2 of 2 items</p>
+                            </div>
+                            <div class="col-lg-6 col-md-7 col-sm-6">
+                                <div class="number">
+                                    <a href="">
+                                        <img src="images/Group%2011.png" alt="" class="numberimg1">
+                                    </a>
+                                    <a href="">1</a>
+                                    <a href="">2</a>
+                                    <a href="">3</a>
+                                    <a href="">4</a>
+                                    <a href="">5</a>
+                                    <a href="">6</a>
+                                    <p>...</p>
+                                    <a href="">50</a>
+                                    <a href="">
+                                        <img src="images/Group%2012.png" alt="" class="numberimg2">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-3">
+                                <div class="reload">
+                                    <a href="">
+                                        <img src="images/reload-2-icon%201.png" alt="">
+                                        <p>Reload</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    tab end-->
+    <div class="underdoctorsection">
+        <div class="row no-gutters">
+            <div class="col-lg-6 col-md-6 emergency">
+                <div class="text">
+                    <p>For Any Emergency Contact</p>
+                    <h6>Exteem Spirit Temper Too say Odius</h6>
+                </div>
+                <div class="btn">
+                    <a href="">+1813 508 129</a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 emergency1">
+                <div class="text">
+                    <p>Make An Online Appoinment</p>
+                    <h6>Exteem Spirit Temper Too say Odius</h6>
+                </div>
+                <div class="btn">
+                    <a href="">Make An Appoinment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end-->
+    <div class="footer">
+        <div class="footerimg">
+            <img src="images/image-2.png" alt="">
+            <h5>TelaHealth<span>Pro</span></h5>
+            <p>The Future Of HealthCare</p>
+        </div>
+        <div class="social">
+            <a href="">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="">
+                <i class="fa fa-instagram"></i>
+            </a>
+        </div>
+        <div class="undermenu">
+            <ul>
+                <li>
+                    <a href="">How to Works</a>
+                </li>
+                <li>
+                    <a href="">Contact Us</a>
+                </li>
+                <li>
+                    <a href="">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="">Terms of use</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--end-->
+    <div class="copyright">
+        <p>Copyright @2020 All Right Reserved | TelaHealthPro</p>
+    </div>
+    <!--end-->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
